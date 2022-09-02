@@ -1,0 +1,143 @@
+body {
+  background-color: black;
+  color:antiquewhite;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav {
+  display:flex;
+  position: fixed;
+  margin: -150px auto 10px 33%;
+}
+p{margin-left: 80px;}
+h1{margin-left: 80px;}
+h2 {
+  margin-left: 80px;
+  margin-top: 80px;
+}
+
+h3 {
+  color: #66BFBF;
+  background-color: ghostwhite;
+  width: 200px;
+}
+
+h4 {
+  margin-left: 80px;
+}
+
+input {
+  background-color:antiquewhite;
+}
+
+textarea {
+  background-color: antiquewhite;
+}
+
+#submit {
+  background-color: grey;
+}
+#let {
+  color:black;
+  display: inline-block;
+  background-color:rgb(244, 162, 10);
+  text-decoration: none;
+  border-radius: 50px;
+  width: 200px;
+  padding-left: 10px;
+}
+
+.is-me {
+  margin: 200px;
+  line-height: 2;
+}
+
+.about {
+  margin: 200px;
+  color: black;
+  background-color:rgb(75, 74, 74);
+  border-radius: 50px;
+  padding: 2%;
+}
+.web{
+  color: yellow;
+}
+.skills{
+  float: left;
+  background-color: grey;
+  margin:5px 50px 50px 230px;
+  border-radius: 50px;
+  padding:0 30px 3% 0;
+}
+.skilln{
+  float: right;
+  background-color: grey;
+  margin:5px 230px 50px 20px;
+  border-radius: 50px;
+  padding:0 30px 3% 0;
+}
+.contact {
+  margin: 200px 200px 200px 400px;
+}
+.star{
+  float: left;
+}
+.star2{
+  float: right;
+}
+img {
+  float:right;
+  height: 400px;
+  margin-top: -40%;
+  margin-right: 18%;
+  border-radius: 50%;
+}
+.con{
+  display: inline-block;
+  border-radius: 50px;
+  padding-left:9px ;
+  width: 70px;
+  height: 30px;
+  background:blue;
+  margin-left: 90px;
+  color: black;
+  text-decoration: none;
+}
+.phone{
+  margin-left: 30px;
+}
+.nipate{
+  background-color: black;
+  color:blue;
+}
+.anav {
+  padding-left: 10px;
+  color:lightgreen;
+  background-color:black;
+  display:block;
+  text-decoration: none;
+}
+a:active{color: blue;}
+.dot {
+  display: flex;
+  position: relative;
+  left: 23%;
+  top: -35px;
+}
+.raphael{
+ position: relative;
+ margin-left: 85px;
+ margin-top: -48px;
+}
+.raphael span{
+  position: relative;
+  display: inline-block;
+  color: gold;
+  text-transform: uppercase;
+  animation: flip 5s infinite;
+  animation-delay: calc(.5s * var(--i));
+}
+@keyframes flip{
+  0%,80%{
+    transform: rotateY(360deg);
+  }
+}
